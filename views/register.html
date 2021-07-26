@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register-login.css">
+    <title>Document</title>
+
+</head>
+<body class="register" class="caja">
+    <form action="/">
+        <div> 
+          <label><b></b></label>
+          <input type="text"placeholder="Nombre y Apellido" name="Nombre y Apellido" id="Nombre y Apellido" required pattern="[A-Z]{2-4}[0-9]{0}"
+          title="El formato debe coincidir con mínimo 2 letras mayúsculas y ningún número."/>> 
+        </div><br>
+        <div> 
+          <label><b></b></label>
+          <input type="text" placeholder="Nombre de usuario" name="" id=""required>
+        </div><br>
+        <div> 
+            <label><b></b></label>
+            <input type="email" placeholder="E-Mail" name="" id=""required>
+          </div>
+        <br>
+       <div> <label><b></b></label>
+          <input type="password" placeholder="Contraseña" name="" id=""required>
+       </div>
+        <br>
+        <div>
+          <label><b></b></label>
+          <input type="password" placeholder="Confirme su contraseña" name="" id=""required>
+        </div>
+        <div> 
+          <label for="birth_date"><h2>Fecha de nacimiento</h2></label>
+                <input type="date" name="birth_date" id="birth_date">
+        </div>
+        <br>
+        <div> 
+          <label><b></b></label>
+          <input type="text" placeholder="Domicilio" name="" id=""required>
+        </div>
+        <div> 
+          <label><h2>Perfil del usuario</h2></label>
+          <input type="radio" name="Perfil" value="Comprador"><b>Comprador</b>
+          <input type="radio" name="Perfil" value="Vendedor"><b>Vendedor</b><br>
+        </div>
+        <div> 
+          <label><h2>Catergorías de interés</h2></label>
+            <input type="checkbox" name="interés" value="Electro"><b>Electro</b><br>
+            <input type="checkbox" name="intersé" value="Moda"><b>Moda<br>
+            <input type="checkbox" name="interés" value="Hogar"><b>Hogar</b><br>
+            <input type="checkbox" name="interés" value="Juguetería"><b>Juguetería</b><br>
+            <input type="checkbox" name="interés" value="Vida sana"><b>Vida sana</b><br>
+            <br>
+        </div>
+        <div> 
+          <label<b>Foto de usuario</b>></label>
+          <input type="image" name="" id=""required>
+        </div>
+       <br>
+        <div> 
+          <label ><b></b></label>
+          <input class="enviar" type="submit" value= "Enviar">
+        </div>
+        <label ><b></b> </label>
+          <input class="reset" type="reset" name="" id="">
+        </div>
+    
+    </form>
+</body>
+</html>

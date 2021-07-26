@@ -1,0 +1,159 @@
+header{
+    background-color: #EAC926;
+
+}
+body{
+font-family: 'Roboto', sans-serif;
+margin: 0;
+background-color: #DDDDDD;
+}
+
+.titulares{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+
+.burguer-menu{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+}       
+
+.titulos-finales{
+    font-size: 24px;
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+}
+
+.logo{
+    width: 50%;
+}
+.topnav{
+    width: 50%;
+}
+
+
+.fas.fa-shipping-fast{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+    }
+    
+    .conteiner-info-producto{
+        border-top: solid 1px rgb(233, 233, 233);
+        padding: 15px;
+        position: relative;
+    }
+    
+    .precios{
+        font-size: 18px;
+      opacity: 0;
+    }
+    .descuentos{
+        font-size: 16px;
+        color: green;
+        opacity: 0;
+    }
+    .precios:hover{
+        opacity: 1;
+       
+    }
+    .descuentos:hover{
+        opacity: 1;
+    }
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+
+        /* Footer */
+
+
+    /* Icono credit card */
+
+     .fas.fa-credit-card{
+        transition: background-color .5s  
+    }
+
+    .fas.fa-credit-card:hover{
+        color: green;
+    }
+
+    /* Icono regalo */
+
+    .fas.fa-gift{
+        transition: background-color .5s 
+    }
+    .fas.fa-gift:hover{
+        color: green;
+    }
+
+    /* Icono shield */
+
+    .fas.fa-user-shield{
+        transition: background-color .5s  
+    }
+
+    .fas.fa-user-shield:hover{
+        color: green;
+    }
+    .caja-footer{
+        display: flex; 
+        margin-bottom: 0px;
+    }
+    
+    .descripciones{
+        font-size: 16px;
+        text-align: center;
+        
+    }
+
+    @media(max-width:361px)
+     {
+        .descuentos{
+            display: none;
+            
+        } nav{
+            display: none;
+        }
+         
+        article{
+            background-color: white;
+        }
+        @media(min-width:400px)
+        {
+            .burguer-menu
+            {
+                display: none;
+            }
+        }
+    }
+        .article{
+            margin: 10px;
+            width: (200px,50%, 1366px);
+            position: relative;
+            display: inline-flex; 
+            justify-content: space-between;
+        }
+        

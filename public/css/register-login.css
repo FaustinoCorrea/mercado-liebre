@@ -1,0 +1,26 @@
+.register {
+    margin:auto;
+    background: lightgray;
+    color: black;
+    font-size: 12px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
+    }
+    .enviar{
+        
+        position: relative;
+        left:320px;
+        
+    }
+    
+    .reset{
+        position: relative;
+        left: 225px;
+        bottom:20px;
+    }
+    
+    .enviar:hover{
+       background-color:#0022AA; 
+    }
